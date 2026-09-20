@@ -66,10 +66,6 @@ RBVP 是一个面向 **Left 4 Dead 2 Mod / VPK 资源处理** 的 Windows 桌面
 | `3dsmax.exe` | ProOptimizer 批量减面 | 批量减面需要 |
 | `VTFEdit.exe` | VTF 编辑器启动 | 仅 VTFEdit 功能需要 |
 
-### 🎨 程序图标
-
-- RBVP 使用 Tk 默认羽毛图标的同源图形制作 `assets/RBVP.ico`，用于 Windows EXE、窗口标题栏和任务栏图标。
-
 ### ⚠️ 3DS Max 注意事项
 
 批量减面模块针对 **3DS Max + ProOptimizer** 工作流设计。项目代码包含对常见 3DS Max 安装位置的自动搜索，同时也支持在 GUI 的“设置”页面手动指定 `3dsmax.exe`。
