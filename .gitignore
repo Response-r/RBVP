@@ -1,0 +1,57 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+envs/
+
+# IDE / editor settings
+.idea/
+.vscode/
+*.iml
+
+# Local project/runtime settings
+settings.json
+*.local.json
+
+# RBVP runtime caches / batch records
+.rbvp_model_cache.json
+.rbvp_batch_reduce_done.json
+.rbvp_batch_reduce_failed.json
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Temporary working directory used by VPK packing
+/temp/
+
+# Local test / generated mod archives and model build artifacts
+*.vpk
+*.mdl
+*.vvd
+*.vtx
+*.dx90.vtx
+*.dx80.vtx
+*.sw.vtx
+*.phy
+*.smd
+*.qc
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build / packaging output
+build/
+dist/
+*.egg-info/
